@@ -18,3 +18,15 @@ or
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+4. Tailwind Config
+module.exports = {
+  content: [
+    "./pages/**/*.{js,ts,jsx,tsx}",
+    "./components/**/*.{js,ts,jsx,tsx}"
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
